@@ -16,3 +16,4 @@ jobs:
           echo "This file was created by GitHub Actions on runner $(hostname)" > actions-test/actions-test
           echo "✅ File created successfully!"
           ls -l actions-test/
+          ls -la
