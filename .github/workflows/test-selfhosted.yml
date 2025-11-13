@@ -5,7 +5,7 @@ on:
 
 jobs:
   test-runner:
-    runs-on: [self-hosted, aosp, 014]  # Targets your self-hosted runner
+    runs-on: [self-hosted, aosp, "014"]  # Targets your self-hosted runner
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
