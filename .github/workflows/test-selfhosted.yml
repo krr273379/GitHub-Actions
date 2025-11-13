@@ -12,6 +12,7 @@ jobs:
 
       - name: Create directory and file
         run: |
+          cd /home/krr273379
           mkdir -p actions-test
           echo "This file was created by GitHub Actions on runner $(hostname)" > actions-test/actions-test
           echo "✅ File created successfully!"
